@@ -1,0 +1,125 @@
+﻿
+steam截图路径：F:\steam\userdata\975128971\760\remote\578080\screenshots
+
+CSGO国际服启动项”-worldwide”   (注意前面的横杠 不会用的话教程在下面)
+CSGO国服启动项 “-perfectworld”
+
+http://bbs.machenike.com/show.php
+
+机械师宝典，全部型号教程 
+官方驱动下载：http://www.machenike.com/download
+retry重连
+跳舞服
+connect 47.94.143.151:27015
+!emotes
+
+　1、首先需要打开控制台，选择【选项】中的【游戏设置】一项打开，找到【启用开发者控制台(~)】，选择【是】。之后，在游戏中只要按【~】按键(Esc下面)即可开启控制台；
+　　2、输入【net_graphproportionalfont】，可以将【net_graphproportionalfont 1】 可以改成0.5；
+　　3、此外，显示帧数(FPS)及网络参数(PING、LOSS、CHOKE等)可以通过在控制台输入【net_graph 0】后回车，可以直接关闭fps和ping；如果要重新开启则输入【net_graph 1】；
+　　4、还可以调整参数显示位置(左、中、右)，只需要在控制台中输入【net_graphpos 0】 参数显示在界面左边，【net_graphpos 1】 参数显示在界面右边，【net_graphpos 2】 参数显示在界面中间。
+
+bind x "noclip"  穿墙
+sv_cheats 1  开作弊
+sv_infinite_ammo 1  无限子弹
+
+net_graph 1 看fps
+net_graphproportionalfont 1 fps变大
+
+give weapon_breachcharge获得遥控炸弹
+
+ent_remove可以移除准心瞄准的物品
+give weapon_bumpmine获得弹跳地雷
+give weapon_shield获得盾牌
+give weapon_healthshot获得治疗针
+give weapon_tagrenade获得探测手雷
+sv_grenade_trajectory 1投掷物轨迹
+cl_grenadepreview 1  扔投掷物轨迹(投掷物拿手上)
+cl_sim_grenade_trajectory X：冻结当前投掷物预览轨迹指定的秒数，这样配合穿墙可以快速移动到远处的烟雾弹具体位置（PS：X代表你想输入的秒数，需要你先用投掷物捏着选择好一条路径，然后再输入这个秒数的指令，比如cl_sim_grenade_trajectory 100 ，就是冻结之前捏着选好的路径100s）
+sv_rethrow_last_grenade：还原当前服务器的最后一次投掷物，可以在丢出一个闪光弹后，在多个应该被闪的位置测试同一个闪光弹是否有效，不再像以前那样需要插件了
+
+死亡竞赛的回合时间60分钟：mp_roundtime 60
+休闲/竞技模式的每局时间60分钟：mp_roundtime_defuse 60
+
+mp_drop_knife_enable 1   扔刀
+
+ent_create prop_exploding_barrel 油桶
+ent_create func_survival_c4_target 炸保险箱
+ent_create ent_snowball_pile 雪球
+ent_create drone 无人机
+ent_create dronegun 无人自动攻击防御机器
+give weapon_shield 盾牌
+sv_party_mode 1 电击枪复活节彩蛋
+ent_fire weapon_c4 addoutput "modelscale 10" C4巨大化
+prop_dynamic_create /props_mill/elevator01_cagedoor02.mdl 创造一个门
+ent_fire !picker setanimation "open" 开门
+ent_fire !picker setanimation "close" 关门
+
+bot_add 往游戏里添加bot
+bot_stop 1 bot停止一切行动
+bot_place 在准心指着的地方放下bot
+bot_mimic 1 bot跟随玩家做任何动作，包括开枪，摇头晃脑等
+
+新刀
+sv_cheats 1
+mp_drop_knife_enable 1
+第一步   sv_cheats 1
+第二步   mp_drop_knife_enable 1
+give weapon_knife_canis;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+give weapon_knife_cord;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+give weapon_knife_outdoor;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+give weapon_knife_skeleton;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+刺刀- give weapon_bayonet;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+折叠刀 - give weapon_knife_flip;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+穿肠刀 - give weapon_knife_gut;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+爪子刀 - give weapon_knife_karambit;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+M9 - give weapon_knife_m9_bayonet;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+猎杀者匕首 - give weapon_knife_tactical;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+蝴蝶刀 - give weapon_knife_butterfly;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+弯刀 - give weapon_knife_falchion;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+暗影双匕 - give weapon_knife_push;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+鲍伊 - give weapon_knife_survival_bowie;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+熊刀 - give weapon_knife_ursus;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+折刀- give weapon_knife_gypsy_jackknife;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+短剑 - give weapon_knife_stiletto;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+
+
+锯齿爪 - give weapon_knife_widowmaker;ent_fire weapon_knife addoutput "classname weapon_knifegg"
+
+13811622764宋作振
